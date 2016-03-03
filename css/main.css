@@ -1,0 +1,98 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.ghost-button {
+
+
+    border: 1px solid #337ab7;
+    font-size: 17px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+
+    min-width: 120px;
+}
+
+
+.ghost-button:hover, .ghost-button:active {
+
+    background: white;
+}
+
+
+.full {
+    background: url("../img/basketball.jpg") no-repeat center center fixed;
+    background-position: 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.module {
+    background: url(../img/basketball.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+
+    position: relative;
+}
+
+
+.top h2 {
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.mid h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: red;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 10rem;
+    transform: translate(-50%, -50%);
+}
+
+
+.blink {
+    animation: blink 1s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
